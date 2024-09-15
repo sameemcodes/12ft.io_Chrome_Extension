@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "12ft.io URL Modifier",
+  "version": "1.0",
+  "description": "Appends 12ft.io/ to the current page URL when clicked",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {},
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon48.png"
+  }
+}
